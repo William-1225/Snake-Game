@@ -33,7 +33,7 @@ def draw_menu():
     win.fill(BLACK)
     draw_text("Welcome to Snake Game !", WHITE, -60, False)
     draw_text(" [1] - Level 1: Simple", WHITE, 0)
-    draw_text(" [2] - Level 2: Challenge", WHITE, 30)
+    draw_text(" [2] - Level 2: Hard", WHITE, 30)
     draw_text(" [Q] - Quit", WHITE, 60)
     pygame.display.update()
 
